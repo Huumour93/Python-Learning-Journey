@@ -1,0 +1,25 @@
+# Exercise 1: Calculate the multiplication and sum of two numbers
+
+#Get input from user for both intergers
+num1 = int(input())
+num2 = int(input())
+print("Enter num1: ", num1 ,"\nEnter num2: ", num2)
+
+
+# calculate the product and sum of the inputs
+mul = num1 * num2
+add = num1 + num2
+
+
+#determine whether to return the product or sum
+if mul <= 1000:
+    
+   result = mul
+    
+else :
+    
+   result = add
+    
+#print the result   
+
+print("The result is: ", result)
